@@ -1,0 +1,20 @@
+.friendList {
+  width: 240px;
+}
+.item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px 12px;
+}
+.item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.status {
+}
+.avatar {
+}
+.name {
+}

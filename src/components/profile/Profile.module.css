@@ -1,0 +1,40 @@
+.profile {
+  width: 280px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+}
+.description {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.avatar {
+  margin: 0 auto 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(2, 37, 29, 0.532);
+}
+.name {
+  margin-bottom: 12px;
+}
+.tag {
+  margin-bottom: 12px;
+}
+.location {
+}
+.stats {
+  display: flex;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: calc(100% / 3);
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.label {
+}
+.quantity {
+}
