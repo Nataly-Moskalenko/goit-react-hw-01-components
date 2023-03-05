@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',        
+        minHeight: '100vh',        
         display: 'flex',
         gap: 20,
         justifyContent: 'center',
@@ -22,7 +22,7 @@ export const App = () => {
         style={{
           display: 'flex',
           flexWrap: 'wrap',
-          gap: 20,
+          gap: 30,
           maxWidth: 600,
           justifyContent: 'center',
           alignItems: 'center',
