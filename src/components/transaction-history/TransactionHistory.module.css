@@ -1,6 +1,7 @@
 .transactionHistory {
   width: 480px;
-  border: 1px solid black;
+  border: 1px solid grey;
+  border-radius: 4px;
 }
 .tableHead {
   background-color: rgb(68, 229, 229);

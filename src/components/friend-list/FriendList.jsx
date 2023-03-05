@@ -12,7 +12,11 @@ export default function FriendList({ friends }) {
 function FriendListItem({ id, avatar, name, isOnline }) {
   return (
     <li className={css.item} key={id}>
-      <span className={css.status}>{isOnline}</span>
+      {isOnline ? (
+        <span className={css.statusIsOnline}></span>
+      ) : (
+        <span className={css.statusIsNotOnline}></span>
+      )}
       <img
         className={css.avatar}
         src={avatar}

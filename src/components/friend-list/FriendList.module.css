@@ -6,15 +6,32 @@
   gap: 12px;
   align-items: center;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid grey;
+  border-radius: 4px;
   padding: 8px 12px;
 }
 .item:not(:last-child) {
   margin-bottom: 12px;
 }
-.status {
+.statusIsOnline {  
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: green;
 }
+
+.statusIsNotOnline {  
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: red;
+}
+
 .avatar {
+  border: 1px solid grey;
+  border-radius: 4px;  
 }
 .name {
+  font-size: 20px;
+  font-weight: 600;
 }

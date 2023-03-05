@@ -1,6 +1,6 @@
 .profile {
   width: 280px;
-  border: 1px solid black;
+  border: 1px solid grey;
   border-radius: 4px;
   background-color: white;
   text-align: center;
@@ -12,15 +12,23 @@
 .avatar {
   margin: 0 auto 40px;
   border-radius: 50%;
-  border: 1px solid rgba(2, 37, 29, 0.532);
+  border: 1px solid grey;
 }
 .name {
   margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .tag {
   margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: grey;
 }
 .location {
+  font-size: 16px;
+  font-weight: 500;
+  color: grey;
 }
 .stats {
   display: flex;
@@ -30,11 +38,20 @@
   flex-direction: column;
   gap: 4px;
   width: calc(100% / 3);
-  border: 1px solid black;
+  border-top: 1px solid grey;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.item:not(:last-child) {
+  border-right: 1px solid grey;;
+}
 .label {
+  font-size: 14px;
+  font-weight: 500;
+  color: grey;
 }
 .quantity {
+  font-size: 18px;
+  font-weight: 700;
 }
