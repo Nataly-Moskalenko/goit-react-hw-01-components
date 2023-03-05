@@ -11,30 +11,35 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
-        maxWidth: 1200,
-        margin: '0 auto',
+        height: '100vh',        
         display: 'flex',
-        flexWrap: 'wrap',
         gap: 20,
         justifyContent: 'center',
         alignItems: 'center',
-        // fontSize: 18,
-        // color: '#010101',
-       
       }}
     >
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />      
-      <FriendList friends={friends} />
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: 20,
+          maxWidth: 600,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <Profile
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+        <FriendList friends={friends} />
+        <Statistics title="Upload stats" stats={data} />
+        <Statistics stats={data} />
+      </div>
       <TransactionHistory items={transactions} />
-      <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
     </div>
   );
 };
