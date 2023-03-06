@@ -1,10 +1,10 @@
 import user from '../data/user.json';
-import Profile from './profile/Profile';
 import data from '../data/data.json';
-import Statistics from './statistics/Statistics';
 import friends from '../data/friends.json';
-import FriendList from './friend-list/FriendList';
 import transactions from '../data/transactions.json';
+import Profile from './profile/Profile';
+import Statistics from './statistics/Statistics';
+import FriendList from './friend-list/FriendList';
 import TransactionHistory from './transaction-history/TransactionHistory';
 
 export const App = () => {
@@ -13,7 +13,7 @@ export const App = () => {
       style={{
         minHeight: '100vh',        
         display: 'flex',
-        gap: 20,
+        gap: 30,
         justifyContent: 'center',
         alignItems: 'center',
       }}
@@ -23,7 +23,7 @@ export const App = () => {
           display: 'flex',
           flexWrap: 'wrap',
           gap: 30,
-          maxWidth: 600,
+          maxWidth: 560,
           justifyContent: 'center',
           alignItems: 'center',
         }}
