@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <div
       style={{
-        minHeight: '100vh',        
+        minHeight: '100vh',
         display: 'flex',
         gap: 30,
         justifyContent: 'center',
