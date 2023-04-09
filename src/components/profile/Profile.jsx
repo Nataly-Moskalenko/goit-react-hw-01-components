@@ -13,7 +13,7 @@ export default function Profile({ username, tag, location, avatar, stats }) {
           height="120"
         />
         <p className={css.name}>{username}</p>
-        <p className={css.tag}>{tag}</p>
+        <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>
       <ul className={css.stats}>
